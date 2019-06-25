@@ -1,0 +1,76 @@
+header {
+    background-color: #D0D3D4;
+    padding: 10px;
+}
+
+/* Showcase styles */
+.homeShowcase {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* HomeCard */
+
+.homeCard {
+    padding: 10px;
+    margin: 10px;
+    background-color: #D0D3D4;
+    display: flex;
+    flex-direction: column;
+}
+
+.homeCard-imgWrapper {
+    position:relative;
+    display: flex;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.homeCard-img {
+    width: 100%;
+    height: auto;
+}
+
+.homeCard-title {
+    position:absolute;
+    width: 100%;
+    bottom: 0px;
+    background-color: rgba(32, 35, 41, 0.7);
+}
+
+.homeCard-title h2{
+    margin: 0px;
+    text-align: center;
+    color: rgb(245, 245, 245)
+}
+
+.homeCard-title p{
+    margin: 0px;
+    text-align: center;
+    color: rgb(245, 245, 245);
+}
+
+.homeCard-info {
+    max-width: 300px;
+    background-color: rgba(32, 35, 41, 0.7);
+}
+
+.homeCard-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+
+.homeCard-text span {
+    min-width: 85px;
+    max-width: 100px;
+}
+
+.homeCard-text p {
+    text-align: right;
+    margin: 0px;
+}
