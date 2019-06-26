@@ -7,7 +7,7 @@ header {
 .homeShowcase {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -63,6 +63,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 5px;
+    height: 36px;
 }
 
 .homeCard-text span {

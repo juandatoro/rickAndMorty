@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Rick & Morty</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -15,45 +16,10 @@
             <h1>Home</h1>
             <p>Parrafo con una introduccion</p>
         </section>
-        <section id="showcase" class="homeShowcase">
-            <article class="homeCard">
-                <div class="homeCard-imgWrapper">
-                    <img 
-                        class="homeCard-img" 
-                        src="https://rickandmortyapi.com/api/character/avatar/7.jpeg" 
-                        alt="Abradolf Lincler photo"
-                    >
-                    <div class="homeCard-title">
-                        <h2>Abradolf Lincler</h2>
-                        <p>ID: </p>
-                    </div>
-                </div>
-                <div class="homeCard-info">
-                    <div class="homeCard-text">
-                        <span>STATUS</span>
-                        <p>unknown</p>
-                    </div>
-                    <div class="homeCard-text">
-                        <span>SPECIES</span>
-                        <p>Human</p>
-                    </div>
-                    <div class="homeCard-text">
-                        <span>GENDER</span>
-                        <p>Male</p>
-                    </div>
-                    <div class="homeCard-text">
-                        <span>ORIGIN</span>
-                        <p>Earth (Replacement Dimension)</p>
-                    </div>
-                    <div class="homeCard-text">
-                        <span>LAST LOCATION</span>
-                        <p>Testicle Monster Dimension</p>
-                    </div>
-                </div>
-            </article>
+        <section id="homeShowcase" class="homeShowcase">
         </section>
     </main>
-    
 </body>
-<script src="api.js"></script>
+<script src="cards.js"></script>
+<script src="home.js"></script>
 </html>
